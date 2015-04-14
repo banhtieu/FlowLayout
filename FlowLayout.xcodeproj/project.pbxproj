@@ -13,6 +13,8 @@
 		3676EB3C1ADD78A7004DAE93 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3676EB3B1ADD78A7004DAE93 /* Images.xcassets */; };
 		3676EB3F1ADD78A7004DAE93 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3676EB3D1ADD78A7004DAE93 /* LaunchScreen.xib */; };
 		3676EB4B1ADD78A7004DAE93 /* FlowLayoutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3676EB4A1ADD78A7004DAE93 /* FlowLayoutTests.swift */; };
+		3676EB551ADD792B004DAE93 /* FlowCollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3676EB541ADD792B004DAE93 /* FlowCollectionViewLayout.swift */; };
+		3676EB571ADD82C1004DAE93 /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3676EB561ADD82C1004DAE93 /* ImageCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		3676EB441ADD78A7004DAE93 /* FlowLayoutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlowLayoutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3676EB491ADD78A7004DAE93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3676EB4A1ADD78A7004DAE93 /* FlowLayoutTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowLayoutTests.swift; sourceTree = "<group>"; };
+		3676EB541ADD792B004DAE93 /* FlowCollectionViewLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlowCollectionViewLayout.swift; sourceTree = "<group>"; };
+		3676EB561ADD82C1004DAE93 /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +87,8 @@
 				3676EB3B1ADD78A7004DAE93 /* Images.xcassets */,
 				3676EB3D1ADD78A7004DAE93 /* LaunchScreen.xib */,
 				3676EB321ADD78A7004DAE93 /* Supporting Files */,
+				3676EB541ADD792B004DAE93 /* FlowCollectionViewLayout.swift */,
+				3676EB561ADD82C1004DAE93 /* ImageCollectionViewCell.swift */,
 			);
 			path = FlowLayout;
 			sourceTree = "<group>";
@@ -213,6 +219,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3676EB371ADD78A7004DAE93 /* ViewController.swift in Sources */,
+				3676EB551ADD792B004DAE93 /* FlowCollectionViewLayout.swift in Sources */,
+				3676EB571ADD82C1004DAE93 /* ImageCollectionViewCell.swift in Sources */,
 				3676EB351ADD78A7004DAE93 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
